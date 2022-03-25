@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  margin-top: -0.98em;
 }
 .carro{
 background-color: #2d2d2d;
@@ -48,4 +49,13 @@ height: 130px;
   list-style-type: none;
   background-color: white;
   color: grey;
+}
+
+
+
+.foto-atras {
+  height:665px;
+  background-image: image();
+  background-repeat: repeat-y;
+  background-size: 10rem;
 }
