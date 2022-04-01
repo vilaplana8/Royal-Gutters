@@ -36,6 +36,7 @@ height: 130px;
 
 .menu{
     text-align: center;
+
 }
 
 
@@ -44,18 +45,25 @@ height: 130px;
   margin: 0;
 }
 
+.menu li:hover{
+  color: #f9c521;
+}
+
+
 .menu li {
   display: inline-block;
   list-style-type: none;
   background-color: white;
   color: grey;
+  padding: 1.25em;
 }
+
+
 
 
 
 .foto-atras {
   height:665px;
-  background-image: image();
-  background-repeat: repeat-y;
-  background-size: 10rem;
+  width: 1500px;
+  background-image: url(fotos/69.jpg);
 }
