@@ -90,14 +90,38 @@ height: 130px;
 }
 
 .muro{
-
-  text-align: center;
+  background-color: #343432;
+  justify-content: center;
+  display: flex;
+  color: white;
+  margin-top: -1em;
 }
 
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.muro ul{
+  text-align: center;
+  font-size: 35px;
+  list-style-type: none;
+}
+
+
+.location{
+  text-align: center;
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+.visit-location{
+  color: #33e6ff;
+  font-size: 12px;
+}
+
+
+.lolo{
+  color: gold
+}
+
+
+.copper{
+  background-color: grey;
 }
